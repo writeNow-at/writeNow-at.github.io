@@ -37,12 +37,14 @@ const postsPages = {
   "/posts/": [
     {
       text: "아카이브",
+      link: "/posts/",
       collapsed: false,
       items: [
-        { text: "1기 (250501~250830)", link: "/posts/2025-C1" },
-        // { text: "2기 (250501~250830)", link: "/posts/2025-C2" },
+        { text: "태그", link: "/posts/tags" },
+        { text: "작성자", link: "/posts/author" },
+        // { text: "1기 (250501~250830)", link: "/posts/2025-C1" },
       ],
-    }
+    },
   ],
 };
 
