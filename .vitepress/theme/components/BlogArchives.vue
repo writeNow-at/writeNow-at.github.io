@@ -108,9 +108,10 @@ const grouped = computed(() => {
   margin-left: 6px;
   padding: 2px 6px;
   font-size: 0.75rem;
-  background-color: var(--bt-theme-bg, #f0f0f0);
-  color: var(--bt-theme-title);
+  background-color: var(--vp-c-bg-alt);
+  color: var(--vp-c-text-1);
   border-radius: 4px;
   white-space: nowrap;
 }
+
 </style>
