@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "쥐깍쥐깍"
+  name: "writeNow"
   text: "블로그 챌린지 스터디"
-  tagline: 예술공학부 기반의 블로그 챌린지 스터디 쥐깍쥐깍입니다.
+  tagline: 예술공학부 기반의 블로그 챌린지 스터디 writeNow입니다.
   actions:
     - theme: brand
       text: 챌린지 규칙
