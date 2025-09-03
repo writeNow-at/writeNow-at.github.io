@@ -1,15 +1,15 @@
 ---
-title: 규칙
-description: Flutter Setting in Macbook Pro m1 with Cursor
+title: 블로그 및 주제 규정
+description: 블로그 제출 시 따라야 할 규정과 주제 작성 가이드
 head:
   - - meta
     - name: keywords
-      content: Flutter, Flutter Setting, Macbook, Macbook m1, Dart, Cursor
+      content: 블로그 제출, 블로그 규정, 주제 규정, 작성 가이드, 예술공학
 outline: deep
 
 lastUpdated: True
-comment: false
-editLink: false
+comment: False
+editLink: False
 ---
 
 아래의 4가지 내용 포함하여 오픈채팅으로 신청
