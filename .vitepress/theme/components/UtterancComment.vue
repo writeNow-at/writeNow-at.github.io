@@ -12,7 +12,7 @@ const appendUtteranc = () => {
   script.async = true;
   script.crossOrigin = "anonymous";
 
-  script.setAttribute("repo", "zkzk-blog-challenge/zkzk-blog-challenge.github.io");
+  script.setAttribute("repo", "writeNow-at/writeNow-at.github.io");
   script.setAttribute("issue-term", "pathname");
   script.setAttribute("label", "Comment");
   script.setAttribute("theme", props.theme);
