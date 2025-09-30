@@ -11,9 +11,9 @@ const PRODUCTION = process.env.NODE_ENV === 'production'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-  title: "wirteNow 블로그 챌린지",
+  title: "wirteNow",
   lang: "ko",
-  description: "예술공학부 기반의 블로그 챌린지 스터디 쥐깍쥐깍입니다.",
+  description: "예술공학부 기반의 블로그 스터디 쥐깍쥐깍입니다.",
 
   vite: {
     resolve: {
