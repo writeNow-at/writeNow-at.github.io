@@ -5,7 +5,7 @@ const rulesMenu = {
   items: [
     {
       items: [
-        { text: "챌린지 규칙", link: "/rules/rulebook" },
+        { text: "스터디 규칙", link: "/rules/rulebook" },
         { text: "블로그 가이드", link: "/rules/blog-guide" },
         { text: "신청하기", link: "/rules/check-in" },
       ],

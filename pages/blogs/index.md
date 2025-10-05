@@ -1,6 +1,6 @@
 ---
 title: 블로그 및 주제 규정
-titleTemplate: zkzk-rule-book
+titleTemplate: rule-book
 description: Flutter Setting in Macbook Pro m1 with Cursor
 head:
   - - meta
