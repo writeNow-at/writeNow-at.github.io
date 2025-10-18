@@ -1,6 +1,6 @@
 ---
-title: 작성자
-description: 작성자
+title: seoyeon
+description: seoyeon
 aside: true
 sidebar: true
 comment: false
