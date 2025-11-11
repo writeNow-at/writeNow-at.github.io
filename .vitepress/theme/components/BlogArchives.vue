@@ -94,7 +94,7 @@ const grouped = computed(() => {
 .posts-archive {
   max-width: 48rem;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.0rem;
 }
 
 .year-group {
