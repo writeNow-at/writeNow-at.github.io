@@ -71,12 +71,14 @@ const grouped = computed(() => {
     .sort((a, b) => {
       const [ay, aq] = a[0].split('-').map(Number)
       const [by, bq] = b[0].split('-').map(Number)
-      if (by !== ay) return by - ay
-      return bq - aq
+      if (by !== ay) return by - ay // 1. 연도(year) 내림차순 (최신순)
+      return bq - aq                 // 2. 기수(quarter) 내림차순 (최신순)
     })
     .map(([key, val]) => {
       const weeks = Array.from(val.weeks.entries())
-        .sort((a, b) => a[0] - b[0])
+        // ▼▼▼ 이 부분이 수정되었습니다 ▼▼▼
+        .sort((a, b) => b[0] - a[0]) // 3. 주차(week) 내림차순 (최신순)
+        // ▲▲▲ (기존: a[0] - b[0]) ▲▲▲
         .map(([weekNum, items]) => ({
           weekNum,
           items
@@ -171,7 +173,8 @@ const grouped = computed(() => {
 }
 
 .post-author {
-  font-weight: 500;
+  font-weight: 350;
+  font-size: small;
   color: var(--vp-c-text-2);
   flex-shrink: 0;
 }
@@ -183,7 +186,7 @@ const grouped = computed(() => {
 
 .post-title {
   color: var(--vp-c-text-1);
-  font-weight: 400;
+  font-weight: 450;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -237,10 +240,17 @@ const grouped = computed(() => {
     height: 8px;
   }
 
-  .post-content {
-    flex-direction: column;
+  .post-container {
+    flex-direction: column;   
     align-items: flex-start;
-    gap: 0.25rem;
+    gap: 0.5rem;           
+  }
+
+  .post-content {
+    flex-direction: row;     
+    align-items: center;  
+    gap: 0.25rem;          
+    flex-wrap: wrap;       
   }
 
   .post-separator {
