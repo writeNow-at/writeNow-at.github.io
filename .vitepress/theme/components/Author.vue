@@ -46,9 +46,7 @@ const authorInfo = computed(() => {
 
 <style scoped>
 .author-page {
-  max-width: 48rem;
   margin: 0 auto;
-  padding: 2rem 1.0rem;
 }
 
 /* --- 1. [신규] 작성자 헤더 및 프로필 카드 스타일 --- */

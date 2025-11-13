@@ -92,9 +92,7 @@ const grouped = computed(() => {
 
 <style scoped>
 .posts-archive {
-  max-width: 48rem;
   margin: 0 auto;
-  padding: 2rem 1.0rem;
 }
 
 .year-group {
