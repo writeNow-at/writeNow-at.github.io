@@ -35,6 +35,11 @@ export default defineConfig({
     nav: nav,
     sidebar: sidebar,
 
+    logo: {
+      light: '/logo-light.svg',
+      dark: '/logo-dark.svg',
+    },
+
     posts: await getPosts(PAGESIZE),
 
     socialLinks: [
