@@ -6,7 +6,7 @@ import BlogArchives from "./components/BlogArchives.vue";
 import Author from "./components/Author.vue";
 import Tags from "./components/Tags.vue";
 import Pages from "./components/Pages.vue";
-import Comment from "./components/UtterancComment.vue";
+import Comment from "./components/GiscusComment.vue";
 import RecentPosts from "./components/RecentPosts.vue";
 
 import "./style.css";   // style 파일은 custom.css 등 네이밍만 다를 뿐, 자유롭게
