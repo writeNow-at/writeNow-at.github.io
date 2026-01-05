@@ -13,7 +13,7 @@ const PRODUCTION = process.env.NODE_ENV === 'production'
 export default defineConfig({
   title: "wirteNow",
   lang: "ko",
-  description: "예술공학부 기반의 블로그 스터디 쥐깍쥐깍입니다.",
+  description: "예술공학부 기반의 블로그 스터디 writeNow입니다.",
 
   vite: {
     resolve: {
