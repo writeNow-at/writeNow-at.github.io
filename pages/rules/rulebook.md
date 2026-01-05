@@ -1,10 +1,6 @@
 ---
 title: 규칙
-description: Flutter Setting in Macbook Pro m1 with Cursor
-head:
-  - - meta
-    - name: keywords
-      content: Flutter, Flutter Setting, Macbook, Macbook m1, Dart, Cursor
+description: 규칙
 outline: deep
 
 lastUpdated: True
@@ -15,7 +11,7 @@ editLink: false
 #  규칙
 
 ::: info
-- 📅 기간: 9월 13일~12월 31일 (총 8회차 진행) 
+- 📅 기간: 3기 / 1월 10일~2월 28일 (총 4회차 진행) 
 - 📋 참여대상: 분야 무관 기술적인 글을 작성하고 싶거나, 회고 혹은 작업노트를 꾸준히 작성하려는 분
 :::
 
@@ -27,7 +23,10 @@ editLink: false
     - 2회차: 1회차 글 피드백 + 2회차 글 작성
     - 3회차: 2회차 글 피드백 + 3회차 글 작성
     
-    이를 8회 반복 후 종료
+    이를 4회 반복 후 종료
+
+    * 3기는 방학기간으로, 홀수 주차는 자율참여, 짝수 주차에 출석을 체크합니다.
+
 2. 시험기간 등에 따라 세부 날짜가 조정될 수 있음.
 3. 매 기수 마지막 주차 중 회고 컨퍼런스 예정
 
@@ -36,7 +35,7 @@ editLink: false
 
 - 지각: 해당 주차 마감일로부터 7일까지 **제출 완료** 시 지각 처리
 - 결석: 지각 마감일 이내 **미제출** 시 결석 처리
-- 결석 3회 이상 누적 시 8주차 종료 후 강퇴
+- 결석 3회 이상 누적 시 4주차 종료 후 강퇴
 - 강퇴 대상자이나, 스터디를 연장하고 싶은 경우 벌칙 수행시 결석 2회 삭감
 
 ## 면제권
