@@ -67,11 +67,10 @@ KPT 회고법(Keep / Problem / Try)을 기반으로 스터디 활동 및 개인�
 
 <CurationList
   :post-ids="[
-    'youngthehuman/2025-c1-week17',
-    'yjlab/2025-c1-week17', 
-    'Sulfurman03/2025-c1-week17', 
-    'mingiraffe/2025-c1-week17', 
-    'rhdprud/2025-c1-week17', 
+    'yjlab/2025-c1-week16', 
+    'Sulfurman03/2025-c1-week16', 
+    'rhdprud/2025-c1-week16', 
+    'Ebee/2025-c1-week16', 
   ]"
   :show-date="true"
   :show-missing-hint="true"
