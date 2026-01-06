@@ -220,7 +220,7 @@ const grouped = computed(() => {
 /* 반응형 */
 @media (max-width: 768px) {
   .posts-archive {
-    padding: 1.5rem 1rem;
+    padding: 0;
   }
 
   .year {
@@ -229,7 +229,7 @@ const grouped = computed(() => {
   }
 
   .week {
-    padding-left: 0.75rem;
+    padding-left: 0;
   }
 
   .week-title::before {
