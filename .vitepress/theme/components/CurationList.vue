@@ -208,9 +208,8 @@ const missingIds = computed(() =>
 .post-title {
   color: var(--vp-c-text-1);
   font-weight: 450;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  word-break: break-word;
+  line-height: 1.5;
 }
 
 .posts:hover .post-title {
@@ -274,6 +273,12 @@ const missingIds = computed(() =>
 @media (max-width: 768px) {
   .curation-item {
     padding: 0.9rem 1rem;
+  }
+
+  .post-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
   }
 
   .item-title {
