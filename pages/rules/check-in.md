@@ -19,4 +19,4 @@ editLink: false
 3. 깃허브 아이디
 4. 대략적인 작성 목표
 
-오픈채팅 링크: https://open.kakao.com/o/sbD89uth
+오픈채팅 링크: [https://open.kakao.com/o/s8dUL79h](https://open.kakao.com/o/s8dUL79h)
