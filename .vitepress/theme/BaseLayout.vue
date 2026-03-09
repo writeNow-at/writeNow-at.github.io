@@ -3,6 +3,7 @@ import { computed } from "vue";
 import { useData, withBase } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import GiscusComment from "@/.vitepress/theme/components/GiscusComment.vue";
+import WelcomeAdPopup from "@/.vitepress/theme/components/WelcomeAdPopup.vue";
 
 const { Layout } = DefaultTheme;
 
@@ -35,4 +36,5 @@ const commentTheme = computed(() => {
       ></GiscusComment>
     </template>
   </Layout>
+  <WelcomeAdPopup />
 </template>
