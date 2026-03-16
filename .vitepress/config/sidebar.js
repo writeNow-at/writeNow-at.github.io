@@ -14,7 +14,8 @@ const blogsPages = {
       items: [
         { text: "1기 큐레이션", link: "blogs/curation/1th" },
         { text: "2기 큐레이션", link: "blogs/curation/2nd" },
-        // { text: "3기 큐레이션", link: "blogs/curation/3rd" },
+        { text: "3기 큐레이션", link: "blogs/curation/3rd" },
+        // { text: "4기 큐레이션", link: "blogs/curation/4th" },
       ],
     },
     // {
