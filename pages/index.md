@@ -7,11 +7,11 @@ hero:
   text: "블로그 스터디"
   tagline: 중앙대학교 예술공학부 기반의 블로그 스터디 소모임 writeNow입니다.
   actions:
-    - theme: brand
+    - theme: alt
       text: 스터디 규칙
       link: /rules/rulebook
 
-    - theme: brand
+    - theme: alt
       text: 아카이브
       link: /posts
 

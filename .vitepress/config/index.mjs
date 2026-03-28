@@ -13,7 +13,7 @@ const PRODUCTION = process.env.NODE_ENV === 'production'
 export default defineConfig({
   title: "wirteNow",
   lang: "ko",
-  description: "예술공학부 기반의 블로그 스터디 쥐깍쥐깍입니다.",
+  description: "예술공학부 기반의 블로그 스터디 writeNow입니다.",
 
   vite: {
     resolve: {
@@ -35,13 +35,24 @@ export default defineConfig({
     nav: nav,
     sidebar: sidebar,
 
+    logo: {
+      light: '/logo-light.svg',
+      dark: '/logo-dark.svg',
+    },
+
     posts: await getPosts(PAGESIZE),
 
     socialLinks: [
       // You can add any icon from simple-icons (https://simpleicons.org/)
       { icon: "github", link: "https://github.com/writeNow-at" },
       { icon: "notion", link: "https://www.notion.so/over-immersion/1e02634e00d5808aad7dd2624f89f21d" },
+      
     ],
+
+    footer: {
+      message: '© 2025–Present writeNow — CAU A&T Tech Blog Study',
+      copyright: 'Logo Design by Baek Jio'
+    },
 
     lastUpdated: {
       text: '마지막 업데이트 날짜',
