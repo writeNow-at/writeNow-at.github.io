@@ -36,5 +36,5 @@ const commentTheme = computed(() => {
       ></GiscusComment>
     </template>
   </Layout>
-  <WelcomeAdPopup />
+  <!-- <WelcomeAdPopup /> -->
 </template>
