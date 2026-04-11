@@ -4,32 +4,34 @@ const blogsPages = {
       text: "소개",
       collapsed: false,
       items: [
-        { text: "블로그 챌린지 연혁", link: "/info/timeline" },
-        { text: "챌린지 참여자", link: "/info/users" },
+        { text: "블로그 챌린지 연혁", link: "blogs/info/timeline" },
+        // { text: "챌린지 참여자", link: "blogs/info/users" },
       ],
     },
     {
       text: "큐레이션",
       collapsed: false,
       items: [
-        { text: "🔥명예의 전당", link: "/curation/blog-guide" },
-        { text: "1기 큐레이션", link: "/curation/rulebook" },
+        { text: "1기 큐레이션", link: "blogs/curation/1th" },
+        { text: "2기 큐레이션", link: "blogs/curation/2nd" },
+        { text: "3기 큐레이션", link: "blogs/curation/3rd" },
+        // { text: "4기 큐레이션", link: "blogs/curation/4th" },
       ],
     },
-    {
-      text: "활동",
-      collapsed: false,
-      items: [
-        { 
-          text: "1기 활동", 
-          collapsed: true,
-          items: [
-            { text: "제 1회 깃허브 쓰기 운동", link: "/events/rulebook" },
-            { text: "1기 회고 활동", link: "/events/blog-guide" },
-          ],
-        },
-      ],
-    }
+    // {
+    //   text: "활동",
+    //   collapsed: false,
+    //   items: [
+    //     { 
+    //       text: "1기 활동", 
+    //       collapsed: true,
+    //       items: [
+    //         { text: "제 1회 깃허브 쓰기 운동", link: "blogs/events/rulebook" },
+    //         { text: "1기 회고 활동", link: "blogs/events/blog-guide" },
+    //       ],
+    //     },
+    //   ],
+    // }
   ],
 };
 

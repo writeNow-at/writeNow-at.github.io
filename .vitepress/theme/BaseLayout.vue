@@ -2,7 +2,8 @@
 import { computed } from "vue";
 import { useData, withBase } from "vitepress";
 import DefaultTheme from "vitepress/theme";
-import UtterancComment from "@/.vitepress/theme/components/UtterancComment.vue";
+import GiscusComment from "@/.vitepress/theme/components/GiscusComment.vue";
+import WelcomeAdPopup from "@/.vitepress/theme/components/WelcomeAdPopup.vue";
 
 const { Layout } = DefaultTheme;
 
@@ -28,11 +29,12 @@ const commentTheme = computed(() => {
       </div>
     </template>
     <template #doc-after>
-      <UtterancComment
+      <GiscusComment
         v-if="frontmatter.comment"
         :key="page.relativePath"
         :theme="commentTheme"
-      ></UtterancComment>
+      ></GiscusComment>
     </template>
   </Layout>
+  <WelcomeAdPopup />
 </template>
